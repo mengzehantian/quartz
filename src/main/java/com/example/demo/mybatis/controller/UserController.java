@@ -4,6 +4,7 @@ package com.example.demo.mybatis.controller;
 import com.example.demo.mybatis.entity.User;
 import com.example.demo.mybatis.service.UserService;
 import com.github.pagehelper.PageHelper;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -13,11 +14,12 @@ import javax.annotation.Resource;
 import java.util.List;
 
 /**
- * @description: 本地分支dev 第三次修改
+ * @description: 本地分支dev 第四次修改
  * @author: halo
  * @create: 2019-12-03 15:14
  **/
 
+@Slf4j
 @RestController
 public class UserController {
 
